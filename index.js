@@ -86,6 +86,9 @@ $(function () {
         var gas_company = $('input[name="entry.1867640231"]').val();
         var gas_area = $('[name="entry.736823717"] option:selected').text();
         var gas_house = $('[name="entry.2013057432"] option:selected').text();        
+
+        var selectElem = document.getElementById('house');
+        var gas_house_index = selectElem.selectedIndex;
         
         //アンケート関連項目
         
